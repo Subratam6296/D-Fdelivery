@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>D Fdelivery</title>
+  <link rel="icon" type="image/x-icon" href="./assets/images/favicon.ico">
+  <meta name="description" content="This is a food html template">
+  <link rel="shortcut icon" href="./android-chrome-192x192.png" type="image/svg+xml">
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet"> 
+
+</head>
+
+<body>
+
+  <div class="loading-container" data-loading-container>
+    <div class="loading-circle"></div>
+  </div>
+
+  <header class="header" data-header>
+    <div class="container">
+
+      <a href="#" class="logo">
+        <img src="./assets/images/logo.png" width="140" height="28" alt="D Fdelivery home">
+      </a>
+
+      <nav class="navbar" data-navbar>
+        <button class="nav-close-btn" aria-label="close menu" data-nav-toggler>
+          <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+        </button>
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <a href="#" class="navbar-link" data-nav-link>Home</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#" class="navbar-link" data-nav-link>About</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#" class="navbar-link" data-nav-link>Shop</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#" class="navbar-link" data-nav-link>Food</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#" class="navbar-link" data-nav-link>Recipecs</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#" class="navbar-link" data-nav-link>Contacts</a>
+          </li>
+
+        </ul>
+      </nav>
+
+      
+
+      <div class="header-action"><a href="#" class="logo">
+
+        <button class="cart-btn" aria-label="cart">
+          <ion-icon name="bag" aria-hidden="true"></ion-icon>
+        </button>
+
+        <a href="#" class="btn btn-primary has-after">Sign in</a>
+      </div>
+
+      <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
+        <ion-icon name="menu-outline" aria-hidden="true"></ion-icon>
+      </button>
+
+      <div class="overlay" data-overlay data-nav-toggler></div>
+
+    </div>
+  </header>
+
+  <main>
+    <article>
+
+      <!-- 
+        - #HERO
+      -->
+
+      <section class="section hero has-bg-image" aria-label="home"
+        style="background-image: url('./assets/images/first-bg.png')">
+        <div class="container">
+
+          <div class="hero-content" data-reveal="left">
+
+            <img src="./assets/images/group1.png" width="190" height="40" alt="hero banner">
+
+            <h2 class="h2 hero-title">Get Your Cuisine Delivered Right To <span style="color: #f8440d">Your Door</span></h2>
+
+            <p class="hero-text">
+              Food that is delivered at the right time.The trendy food delivery partner.Good food is what we deleiver.
+              <br>
+              Your hunger companion.
+            </p>
+
+            <a href="#" class="btn btn-secondary has-after">Explore Food</a>
+          </div>
+
+          <figure class="hero-banner" data-reveal>
+
+            <img src="./assets/images/first-banner.png" width="680" height="720" alt="hero banner" class="w-100">
+
+          </figure>
+
+        </div>
+      </section>
+
+      <section class="section recepices" aria-label="recepices">
+        <div class="container">
+
+          <h2 align="center" class="h2 section-title" data-reveal>Try our special recipecs</h2>
+
+          <ul class="grid-list">
+
+            <li data-reveal="left">
+              <div class="rec">
+
+                <figure class="card-banner img-holder" style="--width: 0; --height: 0;">
+                  <img src="./assets/images/img1.png" width="10" height="10" loading="lazy"
+                    class="img-cover">
+                </figure>
+
+              </div>
+            </li>
+
+            <li data-reveal="right">
+              <div class="rec">
+
+                <figure class="card-banner img-holder" style="--width: 0; --height: 0;">
+                  <img src="./assets/images/img2.png" width="40" height="40" loading="lazy"
+                    class="img-cover">
+                </figure>
+
+              </div>
+            </li>
+
+            <li data-reveal="left">
+              <div class="rec">
+
+                <figure class="card-banner img-holder" style="--width: 0; --height: 0;">
+                  <img src="./assets/images/img3.png" width="40" height="40" loading="lazy"
+                    class="img-cover">
+                </figure>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+      <section class="section testi" style="background-image: url('./assets/images/second-bg.png')" aria-labelledby="testi-label">
+        <div class="container">
+
+          <div class="testi-content" data-reveal="left">
+
+            <h2 class="h2 section-title" id="testi-label">What our customers <br> <span style="color: #f8440d">are saying</span></h2>
+
+            <blockquote class="testi-text">
+              "Excellent food. Menu is extensive and seasonal to a particularly high standard. Definitely fine dining. It can be expensive but worth it and they do different deals on different nights so it’s worth checking them out before you book. Highly recommended".
+            </blockquote>
+
+            <div class="wrapper">
+              <img src="./assets/images/testi-avatar.jpg" width="70" height="70" loading="lazy" alt="Thomas Adamson"
+                class="author-img">
+
+              <div>
+                <p class="author-title">Thomas Adamson</p>
+
+                <div class="rating-wrapper">
+                  <ion-icon name="star" aria-hidden="true"></ion-icon>
+                  <ion-icon name="star" aria-hidden="true"></ion-icon>
+                  <ion-icon name="star" aria-hidden="true"></ion-icon>
+                  <ion-icon name="star" aria-hidden="true"></ion-icon>
+                  <ion-icon name="star" aria-hidden="true"></ion-icon>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+          <figure class="testi-banner" data-reveal="right">
+            <img src="./assets/images/testimonial-banner.png" width="680" height="588" alt="testimonial banner"
+              class="w-100">
+          </figure>
+
+        </div>
+      </section>
+
+      <section class="section newsletter" aria-label="newsletter">
+        <div class="container">
+
+          <figure class="newsletter-banner" data-reveal="left">
+            <img src="./assets/images/phone.svg" width="680" height="405" loading="lazy" alt="Illustration"
+              class="w-100">
+          </figure>
+
+          <div class="newsletter-content" data-reveal="right">
+            <h2 class="h4 section-title">
+              Never Feel Hungry!
+              <br>
+              Download Our Mobile App
+              <br>
+              Order Delicious Food
+            </h2>
+          </div>
+
+        </div>
+      </section>
+
+    </article>
+  </main>
+
+  <footer class="footer" style="background-image: url('./assets/images/first-bg.png')"> 
+    <div class="container">
+
+      <div class="section footer-top grid-list">
+
+        <div class="footer-brand">
+
+          <a href="#" class="logo">
+            <img src="./assets/images/logo.png" width="148" height="38" alt="D Fdelivery">
+          </a>
+
+          <p class="section-text">
+            Retail food delivery is a Courier service in which a resturent,store or independent food delivery  
+          </p>
+
+          <li>
+            <ul class="social-list">
+
+              <li>
+                <a href="#" class="social-link">
+                  <ion-icon name="logo-facebook"></ion-icon>
+                </a>
+              </li>
+
+              <li>
+                <a href="#" class="social-link">
+                  <ion-icon name="logo-instagram"></ion-icon>
+                </a>
+              </li>
+
+              <li>
+                <a href="#" class="social-link">
+                  <ion-icon name="logo-twitter"></ion-icon>
+                </a>
+              </li>
+
+            </ul>
+          </li>
+
+        </div>
+
+        <ul class="footer-list">
+
+          <li>
+            <p class="footer-list-title h5">Company</p>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">
+              <span class="span">About us</span>
+
+              <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">
+              <span class="span">Blog</span>
+
+              <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">
+              <span class="span">All productss</span>
+
+              <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">
+              <span class="span">Location maps</span>
+
+              <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+        <ul class="footer-list">
+
+          <li>
+            <p class="footer-list-title h5">Services</p>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">
+              <span class="span">Order Tracking</span>
+
+              <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">
+              <span class="span">Wish list</span>
+
+              <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">
+              <span class="span">My account</span>
+
+              <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">
+              <span class="span">Terms & conditions</span>
+
+              <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </div>
+  </footer>
+
+
+
+
+
+  <!-- 
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!-- 
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
